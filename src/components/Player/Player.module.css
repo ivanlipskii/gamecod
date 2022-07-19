@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.nickname {
+  font-size: 20px;
+}
+
+.points { 
+  flex: 1;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.reverse .points {
+  text-align: left;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+}
+
+.dead {
+  color: #f00;
+}
+
+.alive {
+  color: #080;
+}

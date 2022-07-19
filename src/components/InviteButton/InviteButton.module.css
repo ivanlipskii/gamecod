@@ -1,0 +1,7 @@
+.button {
+  width: 70px;
+}
+
+.disabled {
+  pointer-events: none;
+}
